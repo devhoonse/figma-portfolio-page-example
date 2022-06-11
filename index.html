@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DevHoonse</title>
+  <meta name="description" content="DevHoonse, a web developer.">
+  <meta name="keywords" content="web, developer">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+          integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+          crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</head>
+<body>
+<header>
+  <nav>
+    <div class="container">
+      <button class="menu-toggle-btn">
+        <i class="fas fa-bars"></i>
+      </button>
+      <ul class="main-menu">
+        <li><a href="">home</a></li>
+        <li><a href="">work</a></li>
+        <li><a href="">about</a></li>
+        <li><a href="">contact</a></li>
+      </ul>
+      <ul class="social-menu">
+        <li><a href=""><i class="fa-brands fa-github"></i></a></li>
+        <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+        <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="title container">
+    <div>
+      <h1>DevHoonse</h1>
+      <h2>Building Web Services for Your Business</h2>
+    </div>
+  </div>
+</header>
+<section class="feature">
+<ul class="feature-list container">
+  <li class="item">
+    <a href="">
+      <img  alt="Frontend" src="images/feature_icon_frontend.svg">
+      <h3>Frontend</h3>
+    </a>
+  </li>
+  <li class="item">
+    <a href="">
+      <img alt="Infra" src="images/feature_icon_infra.svg">
+      <h3>Hosting Infra</h3>
+    </a>
+  </li>
+  <li class="item">
+    <a href="">
+      <img alt="Backend" src="images/feature_icon_backend.svg">
+      <h3>Backend</h3>
+    </a>
+  </li>
+</ul>
+</section>
+<section class="services">
+  <section class="services container">
+    <h2>Web Developer</h2>
+    <div class="contents">
+      <div>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+          standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+          to make a type specimen book.
+        </p>
+      </div>
+      <div>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+          standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+          to make a type specimen book.
+        </p>
+      </div>
+    </div>
+  </section>
+</section>
+<section class="portfolio">
+  <div class="container">
+    <h2>Portfolio</h2>
+    <div class="portfolio-slide-wrap">
+      <div class="portfolio-slides swiper">
+        <ul class="swiper-wrapper">
+          <li class="swiper-slide">
+            <img src="images/portfolio_item_01.jpg" alt="portfolio_item_01">
+            <div class="caption">
+              <h3>SK Siltron APS Project</h3>
+            </div>
+          </li>
+          <li class="swiper-slide">
+            <img src="images/portfolio_item_02.jpg" alt="portfolio_item_02">
+            <div class="caption">
+              <h3>ETRI Multimodal CNN</h3>
+            </div>
+          </li>
+          <li class="swiper-slide">
+            <img src="images/portfolio_item_03.jpg" alt="portfolio_item_03">
+            <div class="caption">
+              <h3>Fire Dept. Hazard Prediction</h3>
+            </div>
+          </li>
+          <li class="swiper-slide">
+            <img src="images/portfolio_item_04.jpg" alt="portfolio_item_04">
+            <div class="caption">
+              <h3>Hunet Coaching AI Chatbot</h3>
+            </div>
+          </li>
+        </ul><!--// swiper-wrapper-->
+      </div><!--// swiper portfolio-slides-->
+      <div class="controls">
+        <span class="prev"><i class="fa-solid fa-chevron-left"></i></span>
+        <span class="next"><i class="fa-solid fa-chevron-right"></i></span>
+      </div>
+    </div>
+    <p class="read-more">
+      <a href="" class="btn">More Portfolio</a>
+    </p>
+  </div>
+</section>
+<footer>
+  <div class="container contents">
+    <div class="blog content-item">
+      <h3>From the Blog</h3>
+      <dl>
+        <dt>AWS Amplify 로 백엔드 만들기</dt>
+        <dd>On April 2022</dd>
+        <dt>Material UI 로 더 이쁘게!</dt>
+        <dd>On May 2022</dd>
+        <dt>Django 로 JWT 인증 API 만들기</dt>
+        <dd>On July 2022</dd>
+      </dl>
+    </div>
+    <div class="contact content-item">
+      <h3>Contact Us</h3>
+      <address>
+        <p>
+          10F ABC  Building
+          Gangnam-gu, Seoul, Republic of Korea
+        </p>
+        <p>
+          +82) 10-8457-9364
+        </p>
+        <p>
+          <a href="mailto:devhoonse@gmail.com">devhoonse@gmail.com</a>
+        </p>
+      </address>
+    </div>
+    <div class="newsletter content-item">
+      <h3>Register for Newsletter</h3>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Register Form</legend>
+          <p>
+            <label for="userName">userName</label>
+            <input id="userName" name="userName" placeholder="Your Name" type="text">
+          </p>
+          <p>
+            <label for="userEmail">userEmail</label>
+            <input id="userEmail" name="userEmail" placeholder="Your Email Address" type="email">
+          </p>
+          <p>
+            <button type="submit">Subscribe</button>
+          </p>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  <p class="copyright">
+    &copy; Copyright 2022, DevHoonse, All Rights Reserved
+  </p>
+</footer>
+</body>
+</html>
